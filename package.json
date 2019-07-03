@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"start": "tsc -p tsconfig.json && cd dist && node ."
+	},
+	"dependencies": {
+		"discord.js": "discordjs/discord.js",
+		"node-os-utils": "^1.0.7",
+		"string-similarity": "^3.0.0",
+		"text2png": "^2.1.0"
+	},
+	"devDependencies": {
+		"@types/node": "^12.0.10",
+		"@types/string-similarity": "^3.0.0"
+	}
+}
